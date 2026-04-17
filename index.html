@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Irish Position Practice</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="practice-panel" aria-labelledby="app-title">
+        <div class="intro">
+          <p class="eyebrow">Irish positions</p>
+          <h1 id="app-title">Place the words where the picture puts them.</h1>
+          <p class="lede">Type the Irish sentence for the scene. The checker will watch the position phrase, case, and mutation.</p>
+        </div>
+
+        <div class="scene-wrap" aria-label="Picture prompt">
+          <div class="scene" id="scene">
+            <img class="asset anchor" id="anchorImage" alt="">
+            <img class="asset mover" id="moverImage" alt="">
+            <div class="scene-label subject-label" id="subjectSceneLabel">
+              <span>1</span>
+              <strong>sentence start</strong>
+            </div>
+            <div class="scene-label reference-label" id="referenceSceneLabel">
+              <span>2</span>
+              <strong>after position</strong>
+            </div>
+            <div class="floor-line" aria-hidden="true"></div>
+          </div>
+        </div>
+
+        <form class="answer-form" id="answerForm">
+          <label for="answerInput">Your sentence</label>
+          <div class="answer-row">
+            <input id="answerInput" type="text" autocomplete="off" spellcheck="false" placeholder="Tá an peann luaidhe ar an mbord.">
+            <button type="submit">Check</button>
+          </div>
+        </form>
+
+        <div class="feedback" id="feedback" aria-live="polite">
+          <p>New scene ready.</p>
+        </div>
+
+        <div class="actions">
+          <button type="button" id="newPromptButton">New scene</button>
+          <button type="button" id="showAnswerButton">Show answer</button>
+          <button type="button" id="editDataButton">Edit lists</button>
+        </div>
+      </section>
+
+      <aside class="side-panel">
+        <section class="prompt-details" aria-labelledby="prompt-heading">
+          <h2 id="prompt-heading">Prompt</h2>
+          <dl>
+            <div>
+              <dt>Object</dt>
+              <dd id="moverLabel"></dd>
+            </div>
+            <div>
+              <dt>Reference</dt>
+              <dd id="anchorLabel"></dd>
+            </div>
+            <div>
+              <dt>Position</dt>
+              <dd id="positionLabel"></dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="rule-card" aria-labelledby="rule-heading">
+          <h2 id="rule-heading">Rule in play</h2>
+          <p id="ruleText"></p>
+        </section>
+
+        <section class="score-card" aria-labelledby="score-heading">
+          <h2 id="score-heading">Practice log</h2>
+          <div class="score-grid">
+            <div><strong id="correctCount">0</strong><span>right</span></div>
+            <div><strong id="attemptCount">0</strong><span>tries</span></div>
+          </div>
+          <ul id="missList"></ul>
+        </section>
+      </aside>
+    </main>
+
+    <dialog id="dataDialog">
+      <form method="dialog" class="dialog-content">
+        <div class="dialog-heading">
+          <div>
+            <p class="eyebrow">Practice data</p>
+            <h2>Edit nouns and positions</h2>
+          </div>
+          <button type="submit" aria-label="Close">Close</button>
+        </div>
+        <p class="dialog-note">These lists live in <code>app.js</code>. Edit them there when you want permanent changes.</p>
+        <textarea id="dataPreview" readonly></textarea>
+      </form>
+    </dialog>
+
+    <script src="app.js"></script>
+  </body>
+</html>

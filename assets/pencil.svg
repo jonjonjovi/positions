@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 90" role="img" aria-label="pencil">
+  <path d="M32 58 178 12l47 18L79 76z" fill="#f0c03d"/>
+  <path d="M178 12 207 4l18 26z" fill="#f7e5bc"/>
+  <path d="m207 4 18 26 17-6z" fill="#26302e"/>
+  <path d="m32 58 47 18-20 7-47-18z" fill="#d8576b"/>
+  <path d="m52 52 47 18" stroke="#b57e12" stroke-width="5"/>
+  <path d="M29 61 176 16" stroke="#fff4b8" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" role="img" aria-label="cup">
+  <path d="M36 38h70l-8 77c-1 10-9 18-19 18H64c-10 0-18-8-19-18z" fill="#f5f1e6"/>
+  <path d="M101 53h16c13 0 21 9 19 21-2 17-14 28-34 28l2-18c9 0 15-4 16-11 1-4-2-7-7-7h-13z" fill="#e0d7c8"/>
+  <path d="M33 38h75" stroke="#243b36" stroke-width="8" stroke-linecap="round"/>
+  <path d="M51 56h35" stroke="#c5314b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M49 73h32" stroke="#d8a522" stroke-width="8" stroke-linecap="round"/>
+</svg>

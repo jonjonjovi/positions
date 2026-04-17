@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 230" role="img" aria-label="door">
+  <path d="M42 20h88c8 0 14 6 14 14v176H28V34c0-8 6-14 14-14z" fill="#2f8f7a"/>
+  <path d="M52 36h68v158H52z" fill="#36a88f"/>
+  <path d="M103 116a7 7 0 1 0 0-14 7 7 0 0 0 0 14z" fill="#f2cf45"/>
+  <path d="M39 211h108" stroke="#243b36" stroke-width="10" stroke-linecap="round"/>
+  <path d="M64 52h44v44H64zM64 114h44v58H64z" fill="#d7ecf2" opacity=".5"/>
+</svg>

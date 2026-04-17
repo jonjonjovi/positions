@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 140" role="img" aria-label="book">
+  <path d="M28 23h84c20 0 33 12 33 29v60c0 4-3 7-7 7H52c-18 0-31-11-31-27V30c0-4 3-7 7-7z" fill="#2f8f7a"/>
+  <path d="M42 32h81c10 0 18 8 18 18v58H54c-11 0-20-9-20-20V40c0-4 4-8 8-8z" fill="#36a88f"/>
+  <path d="M55 109h87v12H54c-13 0-24-9-27-21 7 6 16 9 28 9z" fill="#f8f4df"/>
+  <path d="M55 41h58" stroke="#f8f4df" stroke-width="8" stroke-linecap="round"/>
+  <path d="M55 59h42" stroke="#f8f4df" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+</svg>

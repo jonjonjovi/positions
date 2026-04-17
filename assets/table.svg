@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 170" role="img" aria-label="table">
+  <path d="M35 52h190c8 0 14 6 14 14v10H21V66c0-8 6-14 14-14z" fill="#7b9c4d"/>
+  <path d="M38 76h184v20H38z" fill="#5f823a"/>
+  <path d="M57 96h22v58H57zM181 96h22v58h-22z" fill="#415f2a"/>
+  <path d="M27 52h207" stroke="#cbe08b" stroke-width="8" stroke-linecap="round"/>
+</svg>

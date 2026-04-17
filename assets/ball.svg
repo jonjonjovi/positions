@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" role="img" aria-label="ball">
+  <circle cx="75" cy="75" r="56" fill="#e4495f"/>
+  <path d="M26 61c31 7 61 7 98 0" fill="none" stroke="#fff3f6" stroke-width="9"/>
+  <path d="M52 24c18 31 19 68 1 103" fill="none" stroke="#fff3f6" stroke-width="9"/>
+  <path d="M98 24c-18 31-19 68-1 103" fill="none" stroke="#fff3f6" stroke-width="9"/>
+</svg>
