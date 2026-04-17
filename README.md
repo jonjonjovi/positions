@@ -24,11 +24,11 @@ The checker accepts exact answers and also gives a gentler pass when the only is
 
 ## Editing The Lists
 
-The practice data lives near the top of `app.js`:
+The practice data lives in separate files in the `data` folder:
 
-- `movers`: objects that move around the scene
-- `anchors`: objects used as the reference point
-- `positions`: Irish position snippets and the grammar rule attached to them
+- `data/movers.js`: objects that move around the scene
+- `data/anchors.js`: objects used as the reference point
+- `data/positions.js`: Irish position snippets and the grammar rule attached to them
 
 Each anchor stores forms such as:
 
