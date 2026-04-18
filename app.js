@@ -7,6 +7,8 @@ const state = {
   misses: []
 };
 
+const audioPlayer = new Audio();
+
 const els = {
   scene: document.querySelector("#scene"),
   moverImage: document.querySelector("#moverImage"),
@@ -86,14 +88,44 @@ function renderPrompt() {
   els.subjectSceneLabel.querySelector("strong").textContent = `1: ${mover.english} starts`;
   els.referenceSceneLabel.querySelector("strong").textContent = `2: ${anchor.english} follows`;
 
-  els.moverLabel.textContent = `${mover.english}: ${mover.subjectArticle}`;
-  els.anchorLabel.textContent = `${anchor.english}: ${anchor.irish} (${anchor.gender})`;
-  els.positionLabel.textContent = `${position.english}: ${position.irish}`;
+  renderAudioLabel(els.moverLabel, `${mover.english}: `, mover.subjectArticle, mover.audioPath);
+  renderAudioLabel(els.anchorLabel, `${anchor.english}: `, anchor.irish, anchor.audioPath, ` (${anchor.gender})`);
+  renderAudioLabel(els.positionLabel, `${position.english}: `, position.irish, position.audioPath);
   els.ruleText.textContent = position.rule;
 
   els.answerInput.value = "";
   els.answerInput.focus();
   setFeedback("New scene ready.", "");
+}
+
+function renderAudioLabel(element, prefix, text, audioPath, suffix = "") {
+  element.replaceChildren(document.createTextNode(prefix));
+
+  if (audioPath) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "audio-word";
+    button.textContent = text;
+    button.title = `Play audio for ${text}`;
+    button.setAttribute("aria-label", `Play audio for ${text}`);
+    button.addEventListener("click", () => playAudio(audioPath));
+    element.append(button);
+  } else {
+    element.append(document.createTextNode(text));
+  }
+
+  if (suffix) {
+    element.append(document.createTextNode(suffix));
+  }
+}
+
+function playAudio(audioPath) {
+  audioPlayer.pause();
+  audioPlayer.currentTime = 0;
+  audioPlayer.src = audioPath;
+  audioPlayer.play().catch(() => {
+    setFeedback("I couldn't play that audio file. Check that the path exists and points to a browser-playable file.", "incorrect");
+  });
 }
 
 function setAssetPosition(element, point, scale = 1) {

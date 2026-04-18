@@ -12,6 +12,7 @@ window.practiceData.anchors = [
     eclipsed: "mbord",
     lenited: "bhord",
     genitiveArticle: "bhoird",
+    audioPath: null,
     image: "assets/table.svg"
   },
   {
@@ -25,6 +26,7 @@ window.practiceData.anchors = [
     eclipsed: "gcathaoir",
     lenited: "chathaoir",
     genitiveArticle: "cathaoireach",
+    audioPath: null,
     image: "assets/chair.svg"
   },
   {
@@ -38,6 +40,7 @@ window.practiceData.anchors = [
     eclipsed: "mbosca",
     lenited: "bhosca",
     genitiveArticle: "bhosca",
+    audioPath: null,
     image: "assets/box.svg"
   },
   {
@@ -51,6 +54,7 @@ window.practiceData.anchors = [
     eclipsed: "ndoras",
     lenited: "dhoras",
     genitiveArticle: "dorais",
+    audioPath: null,
     image: "assets/door.svg"
   }
 ];

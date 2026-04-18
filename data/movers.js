@@ -6,6 +6,7 @@ window.practiceData.movers = [
     english: "pencil",
     irish: "peann luaidhe",
     subjectArticle: "an peann luaidhe",
+    audioPath: null,
     image: "assets/pencil.svg"
   },
   {
@@ -13,6 +14,7 @@ window.practiceData.movers = [
     english: "book",
     irish: "leabhar",
     subjectArticle: "an leabhar",
+    audioPath: "data/audio/movers/leabhar.mp3",
     image: "assets/book.svg"
   },
   {
@@ -20,6 +22,7 @@ window.practiceData.movers = [
     english: "cup",
     irish: "cupán",
     subjectArticle: "an cupán",
+    audioPath: null,
     image: "assets/cup.svg"
   },
   {
@@ -27,6 +30,7 @@ window.practiceData.movers = [
     english: "ball",
     irish: "liathróid",
     subjectArticle: "an liathróid",
+    audioPath: null,
     image: "assets/ball.svg"
   }
 ];

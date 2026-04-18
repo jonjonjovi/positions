@@ -299,6 +299,32 @@ dd {
   font-weight: 800;
 }
 
+.audio-word {
+  min-height: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 1px 4px 2px;
+  color: var(--accent-dark);
+  background: transparent;
+  box-shadow: inset 0 -2px 0 rgba(197, 49, 75, 0.25);
+  font-weight: 900;
+  text-align: left;
+  cursor: pointer;
+}
+
+.audio-word::after {
+  content: " \25B8";
+  font-size: 0.8em;
+}
+
+.audio-word:hover,
+.audio-word:focus-visible {
+  color: white;
+  background: var(--accent);
+  box-shadow: none;
+  outline: none;
+}
+
 .rule-card p {
   margin: 0;
   color: var(--muted);
