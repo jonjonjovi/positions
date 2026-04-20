@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">jumper</title>
+  <desc id="desc">Practice icon showing jumper</desc>
+  <rect width="220" height="180" rx="24" fill="#edf1e4"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M78 51h64l31 31-19 23-13-12v54H79V93l-13 12-19-23z" fill="#557d54"/><path d="M91 51c5 16 33 16 38 0" fill="#edf1e4"/><path d="M79 104h62" stroke="#b8d19a" stroke-width="7"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">jumper</text>
+</svg>

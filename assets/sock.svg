@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">sock</title>
+  <desc id="desc">Practice icon showing sock</desc>
+  <rect width="220" height="180" rx="24" fill="#f0f3f7"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M83 42h45v65c0 16 38 17 38 35 0 13-15 17-34 17-31 0-49-16-49-41z" fill="#5c7da0"/><path d="M83 70h45" stroke="#d7ecf2" stroke-width="10"/><path d="M129 124c8 10 18 14 31 13" stroke="#d7ecf2" stroke-width="7"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">sock</text>
+</svg>

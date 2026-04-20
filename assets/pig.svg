@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">pig</title>
+  <desc id="desc">Practice icon showing pig</desc>
+  <rect width="220" height="180" rx="24" fill="#f7e4e6"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <ellipse cx="110" cy="99" rx="55" ry="38" fill="#d97988"/><circle cx="110" cy="101" r="20" fill="#ef9daa"/><circle cx="102" cy="101" r="4" fill="#7a3f48"/><circle cx="118" cy="101" r="4" fill="#7a3f48"/><path d="M72 68L56 45l30 10M148 68l16-23-30 10" fill="#d97988"/><circle cx="91" cy="83" r="5" fill="#17211f"/><circle cx="129" cy="83" r="5" fill="#17211f"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">pig</text>
+</svg>

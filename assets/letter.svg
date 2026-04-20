@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">letter</title>
+  <desc id="desc">Practice icon showing letter</desc>
+  <rect width="220" height="180" rx="24" fill="#f6f0e5"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <rect x="48" y="58" width="124" height="84" rx="8" fill="#f7e3b8" stroke="#bd8b45" stroke-width="7"/><path d="M53 66l57 46 57-46M53 135l43-38M167 135l-43-38" fill="none" stroke="#bd8b45" stroke-width="6"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">letter</text>
+</svg>

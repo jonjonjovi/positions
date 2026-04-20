@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">cliff</title>
+  <desc id="desc">Practice icon showing cliff</desc>
+  <rect width="220" height="180" rx="24" fill="#edf0e3"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M45 145h130L132 43 98 91 78 72z" fill="#77715f"/><path d="M94 97l38-54 43 102H106z" fill="#5f5a4e"/><path d="M61 130h48" stroke="#d7ecf2" stroke-width="10" stroke-linecap="round"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">cliff</text>
+</svg>

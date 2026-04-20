@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">bottle</title>
+  <desc id="desc">Practice icon showing bottle</desc>
+  <rect width="220" height="180" rx="24" fill="#e3f4ef"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M94 39h32v34c16 10 25 26 25 48 0 18-13 28-41 28s-41-10-41-28c0-22 9-38 25-48z" fill="#2d9b7d"/><rect x="96" y="30" width="28" height="18" rx="4" fill="#1f5f4f"/><rect x="83" y="91" width="54" height="31" rx="6" fill="#e9fff7" opacity="0.8"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">bottle</text>
+</svg>

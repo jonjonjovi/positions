@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">counter</title>
+  <desc id="desc">Practice icon showing counter</desc>
+  <rect width="220" height="180" rx="24" fill="#f1ebe0"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <rect x="46" y="72" width="128" height="65" rx="8" fill="#a66a3e"/><rect x="40" y="61" width="140" height="20" rx="6" fill="#5d3c28"/><path d="M78 96h24M119 96h24" stroke="#f0ca8d" stroke-width="6" stroke-linecap="round"/><path d="M92 118h36" stroke="#f0ca8d" stroke-width="6" stroke-linecap="round"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">counter</text>
+</svg>

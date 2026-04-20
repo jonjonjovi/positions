@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">sea</title>
+  <desc id="desc">Practice icon showing sea</desc>
+  <rect width="220" height="180" rx="24" fill="#e4f3f6"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M32 111c18-15 36-15 54 0s36 15 54 0 36-15 54 0v38H32z" fill="#257d93"/><path d="M33 87c18-15 36-15 54 0s36 15 54 0 36-15 54 0" fill="none" stroke="#7fc6d4" stroke-width="10" stroke-linecap="round"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">sea</text>
+</svg>

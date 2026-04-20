@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">sister</title>
+  <desc id="desc">Practice icon showing sister</desc>
+  <rect width="220" height="180" rx="24" fill="#f3e8f0"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <circle cx="110" cy="55" r="23" fill="#d59b6a"/><path d="M75 148c4-37 23-59 35-59s31 22 35 59z" fill="#8d5f9b"/><path d="M83 58c2-34 52-36 56 0-13-10-42-10-56 0z" fill="#3d2a1f"/><path d="M98 91l12 18 12-18" fill="#f3e8f0"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">sister</text>
+</svg>

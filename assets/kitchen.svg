@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">kitchen</title>
+  <desc id="desc">Practice icon showing kitchen</desc>
+  <rect width="220" height="180" rx="24" fill="#f2ede4"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <rect x="48" y="60" width="124" height="83" rx="7" fill="#9b8164"/><rect x="61" y="74" width="38" height="24" fill="#e9f1f2"/><circle cx="132" cy="86" r="12" fill="#344247"/><path d="M62 118h96" stroke="#f1d7a0" stroke-width="8"/><path d="M109 60v83" stroke="#684f38" stroke-width="5"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">kitchen</text>
+</svg>

@@ -132,6 +132,31 @@ h1 {
   z-index: 2;
 }
 
+.plural-badge {
+  position: absolute;
+  z-index: 6;
+  min-width: 42px;
+  padding: 6px 9px;
+  border: 2px solid #17211f;
+  border-radius: 999px;
+  color: white;
+  background: var(--accent);
+  box-shadow: 0 8px 18px rgba(20, 31, 27, 0.2);
+  font-weight: 900;
+  text-align: center;
+  transform: translate(32px, -62px);
+  transition: left 260ms ease, top 260ms ease;
+}
+
+.anchor-plural-badge {
+  background: var(--green);
+  transform: translate(48px, -78px);
+}
+
+.plural-badge[hidden] {
+  display: none;
+}
+
 .scene-label {
   position: absolute;
   z-index: 5;

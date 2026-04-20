@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">son</title>
+  <desc id="desc">Practice icon showing a son</desc>
+  <rect width="220" height="180" rx="24" fill="#e9f2f5"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <circle cx="110" cy="58" r="21" fill="#d59b6a"/>
+  <path d="M78 148c5-35 20-55 32-55s27 20 32 55z" fill="#4f85a2"/>
+  <path d="M89 56c8-24 39-23 47 0-15-6-32-6-47 0z" fill="#3d2a1f"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">son</text>
+</svg>

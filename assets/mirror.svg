@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">mirror</title>
+  <desc id="desc">Practice icon showing mirror</desc>
+  <rect width="220" height="180" rx="24" fill="#e9f2f5"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <ellipse cx="110" cy="78" rx="42" ry="52" fill="#d7ecf2" stroke="#467a8c" stroke-width="8"/><path d="M110 130v21M82 151h56" stroke="#467a8c" stroke-width="8" stroke-linecap="round"/><path d="M91 60l31 31" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">mirror</text>
+</svg>

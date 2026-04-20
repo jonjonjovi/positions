@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">shirt</title>
+  <desc id="desc">Practice icon showing shirt</desc>
+  <rect width="220" height="180" rx="24" fill="#eaf1f5"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M83 48h54l31 27-19 26-15-12v56H86V89l-15 12-19-26z" fill="#4f85a2"/><path d="M98 48c3 18 21 18 24 0" fill="#eaf1f5"/><path d="M94 81h32" stroke="#b5d2df" stroke-width="7"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">shirt</text>
+</svg>

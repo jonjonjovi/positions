@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">bucket</title>
+  <desc id="desc">Practice icon showing bucket</desc>
+  <rect width="220" height="180" rx="24" fill="#e9f1f2"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M65 74h90l-13 69H78z" fill="#7d9aa3"/><path d="M78 74c4-38 60-38 64 0" fill="none" stroke="#36494f" stroke-width="8"/><path d="M78 101h64" stroke="#c9dadd" stroke-width="8"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">bucket</text>
+</svg>

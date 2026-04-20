@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">jacket</title>
+  <desc id="desc">Practice icon showing jacket</desc>
+  <rect width="220" height="180" rx="24" fill="#e8edf5"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M78 45l-28 24 19 76h82l19-76-28-24-20 18H98z" fill="#3f5f91"/><path d="M110 64v81M80 83h60" stroke="#d7ecf2" stroke-width="6"/><path d="M98 45l12 19 12-19" fill="#e8edf5"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">jacket</text>
+</svg>

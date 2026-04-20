@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">foot</title>
+  <desc id="desc">Practice icon showing foot</desc>
+  <rect width="220" height="180" rx="24" fill="#f5ebdf"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M63 124c22-47 36-74 61-72 20 2 24 23 13 43l-14 25h32c12 0 19 18 5 24H78c-15 0-22-8-15-20z" fill="#d59b6a"/><circle cx="149" cy="90" r="7" fill="#d59b6a"/><circle cx="161" cy="101" r="6" fill="#d59b6a"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">foot</text>
+</svg>

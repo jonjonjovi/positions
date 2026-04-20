@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">basket</title>
+  <desc id="desc">Practice icon showing basket</desc>
+  <rect width="220" height="180" rx="24" fill="#f1e1c7"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M58 79h104l-16 58H74z" fill="#b8793d"/><path d="M75 79c4-42 66-42 70 0" fill="none" stroke="#72461f" stroke-width="9"/><path d="M68 98h84M74 118h72M89 82l7 54M116 82v54M143 82l-7 54" stroke="#f0c98e" stroke-width="5"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">basket</text>
+</svg>

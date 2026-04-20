@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">spoon</title>
+  <desc id="desc">Practice icon showing spoon</desc>
+  <rect width="220" height="180" rx="24" fill="#edf0f2"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <ellipse cx="110" cy="66" rx="26" ry="34" fill="#6b7c83"/><path d="M110 97v55" stroke="#6b7c83" stroke-width="12" stroke-linecap="round"/><ellipse cx="110" cy="61" rx="15" ry="22" fill="#9dafb6"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">spoon</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">wall</title>
+  <desc id="desc">Practice icon showing a brick wall</desc>
+  <rect width="220" height="180" rx="24" fill="#f1e7dc"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <rect x="38" y="55" width="144" height="82" rx="6" fill="#b7654b"/>
+  <path d="M38 82h144M38 109h144M66 55v27M112 55v27M158 55v27M89 82v27M135 82v27M66 109v28M112 109v28M158 109v28" stroke="#f1c0a8" stroke-width="5"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">wall</text>
+</svg>

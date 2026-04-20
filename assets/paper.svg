@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">paper</title>
+  <desc id="desc">Practice icon showing paper</desc>
+  <rect width="220" height="180" rx="24" fill="#edf0f2"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M70 33h62l25 26v91H70z" fill="#fffdf3" stroke="#7d8a90" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M132 33v28h25" fill="#d7ecf2" stroke="#7d8a90" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M88 82h48M88 103h50M88 124h35" stroke="#8a9aa0" stroke-width="6" stroke-linecap="round"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">paper</text>
+</svg>

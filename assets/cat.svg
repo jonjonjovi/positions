@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">cat</title>
+  <desc id="desc">Practice icon showing cat</desc>
+  <rect width="220" height="180" rx="24" fill="#f4ead8"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M69 92c0-42 82-42 82 0v38H69z" fill="#8a6648"/><path d="M78 60l-17-25 4 35M142 60l17-25-4 35" fill="#8a6648"/><circle cx="94" cy="91" r="5" fill="#17211f"/><circle cx="126" cy="91" r="5" fill="#17211f"/><path d="M109 103l7 2-7 6z" fill="#e8a0a5"/><path d="M70 117c-20 1-31-7-37-20" fill="none" stroke="#8a6648" stroke-width="10" stroke-linecap="round"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">cat</text>
+</svg>

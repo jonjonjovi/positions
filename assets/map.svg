@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">map</title>
+  <desc id="desc">Practice icon showing a folded map</desc>
+  <rect width="220" height="180" rx="24" fill="#f3eddd"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M45 55l43-16 44 16 43-16v96l-43 16-44-16-43 16z" fill="#f7e8ad" stroke="#8a6a34" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M88 39v96M132 55v96" stroke="#8a6a34" stroke-width="5"/>
+  <path d="M61 85c21-11 33 4 50-9 21-16 32 3 53-11" fill="none" stroke="#348aa0" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="145" cy="104" r="8" fill="#c5314b"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">map</text>
+</svg>

@@ -1,7 +1,7 @@
 window.practiceData = window.practiceData || {};
 
 window.practiceData.anchors = [
-  {
+{
     id: "table",
     english: "table",
     irish: "bord",
@@ -12,10 +12,18 @@ window.practiceData.anchors = [
     eclipsed: "mbord",
     lenited: "bhord",
     genitiveArticle: "bhoird",
+    plural: {
+      irish: "boird",
+      nominative: "boird",
+      afterArticle: "boird",
+      eclipsed: "mbord",
+      lenited: "boird",
+      genitiveArticle: "mbord"
+    },
     audioPath: null,
     image: "assets/table.svg"
   },
-  {
+{
     id: "chair",
     english: "chair",
     irish: "cathaoir",
@@ -26,10 +34,18 @@ window.practiceData.anchors = [
     eclipsed: "gcathaoir",
     lenited: "chathaoir",
     genitiveArticle: "cathaoireach",
+    plural: {
+      irish: "cathaoireacha",
+      nominative: "cathaoireacha",
+      afterArticle: "cathaoireacha",
+      eclipsed: "gcathaoireacha",
+      lenited: "cathaoireacha",
+      genitiveArticle: "gcathaoireacha"
+    },
     audioPath: null,
     image: "assets/chair.svg"
   },
-  {
+{
     id: "box",
     english: "box",
     irish: "bosca",
@@ -40,10 +56,18 @@ window.practiceData.anchors = [
     eclipsed: "mbosca",
     lenited: "bhosca",
     genitiveArticle: "bhosca",
+    plural: {
+      irish: "boscaí",
+      nominative: "boscaí",
+      afterArticle: "boscaí",
+      eclipsed: "mboscaí",
+      lenited: "boscaí",
+      genitiveArticle: "mboscaí"
+    },
     audioPath: null,
     image: "assets/box.svg"
   },
-  {
+{
     id: "door",
     english: "door",
     irish: "doras",
@@ -54,7 +78,521 @@ window.practiceData.anchors = [
     eclipsed: "ndoras",
     lenited: "dhoras",
     genitiveArticle: "dorais",
+    plural: {
+      irish: "doirse",
+      nominative: "doirse",
+      afterArticle: "doirse",
+      eclipsed: "ndoirse",
+      lenited: "doirse",
+      genitiveArticle: "ndoirse"
+    },
     audioPath: null,
     image: "assets/door.svg"
+  },
+{
+    id: "river",
+    english: "river",
+    irish: "abhainn",
+    gender: "feminine",
+    nominative: "abhainn",
+    genitive: "abhann",
+    afterArticle: "abhainn",
+    eclipsed: "n-abhainn",
+    lenited: "abhainn",
+    genitiveArticle: "habhann",
+    plural: {
+      irish: "aibhneacha",
+      nominative: "aibhneacha",
+      afterArticle: "aibhneacha",
+      eclipsed: "n-aibhneacha",
+      lenited: "aibhneacha",
+      genitiveArticle: "n-aibhneacha"
+    },
+    audioPath: null,
+    image: "assets/river.svg"
+  },
+{
+    id: "cliff",
+    english: "cliff",
+    irish: "aill",
+    gender: "feminine",
+    nominative: "aill",
+    genitive: "aille",
+    afterArticle: "aill",
+    eclipsed: "n-aill",
+    lenited: "aill",
+    genitiveArticle: "haille",
+    plural: {
+      irish: "aillte",
+      nominative: "aillte",
+      afterArticle: "aillte",
+      eclipsed: "n-aillte",
+      lenited: "aillte",
+      genitiveArticle: "n-aillte"
+    },
+    audioPath: null,
+    image: "assets/cliff.svg"
+  },
+{
+    id: "stone",
+    english: "stone",
+    irish: "cloch",
+    gender: "feminine",
+    nominative: "cloch",
+    genitive: "cloiche",
+    afterArticle: "chloch",
+    eclipsed: "gcloch",
+    lenited: "chloch",
+    genitiveArticle: "cloiche",
+    plural: {
+      irish: "clocha",
+      nominative: "clocha",
+      afterArticle: "clocha",
+      eclipsed: "gcloch",
+      lenited: "clocha",
+      genitiveArticle: "gcloch"
+    },
+    audioPath: null,
+    image: "assets/stone.svg"
+  },
+{
+    id: "basket",
+    english: "basket",
+    irish: "ciseán",
+    gender: "masculine",
+    nominative: "ciseán",
+    genitive: "ciseáin",
+    afterArticle: "ciseán",
+    eclipsed: "gciseán",
+    lenited: "chiseán",
+    genitiveArticle: "chiseáin",
+    plural: {
+      irish: "ciseáin",
+      nominative: "ciseáin",
+      afterArticle: "ciseáin",
+      eclipsed: "gciseán",
+      lenited: "ciseáin",
+      genitiveArticle: "gciseán"
+    },
+    audioPath: null,
+    image: "assets/basket.svg"
+  },
+{
+    id: "bed",
+    english: "bed",
+    irish: "leaba",
+    gender: "feminine",
+    nominative: "leaba",
+    genitive: "leapa",
+    afterArticle: "leaba",
+    eclipsed: "leaba",
+    lenited: "leaba",
+    genitiveArticle: "leapa",
+    plural: {
+      irish: "leapacha",
+      nominative: "leapacha",
+      afterArticle: "leapacha",
+      eclipsed: "leapacha",
+      lenited: "leapacha",
+      genitiveArticle: "leapacha"
+    },
+    audioPath: null,
+    image: "assets/bed.svg"
+  },
+{
+    id: "ground",
+    english: "ground",
+    irish: "talamh",
+    gender: "feminine",
+    nominative: "talamh",
+    genitive: "talún",
+    afterArticle: "talamh",
+    eclipsed: "dtalamh",
+    lenited: "thalamh",
+    genitiveArticle: "talún",
+    plural: {
+      irish: "taltaí",
+      nominative: "taltaí",
+      afterArticle: "taltaí",
+      eclipsed: "dtaltaí",
+      lenited: "taltaí",
+      genitiveArticle: "dtaltaí"
+    },
+    audioPath: null,
+    image: "assets/ground.svg"
+  },
+{
+    id: "counter",
+    english: "counter",
+    irish: "cabhantar",
+    gender: "masculine",
+    nominative: "cabhantar",
+    genitive: "cabhantair",
+    afterArticle: "cabhantar",
+    eclipsed: "gcabhantar",
+    lenited: "chabhantar",
+    genitiveArticle: "chabhantair",
+    plural: {
+      irish: "cabhantair",
+      nominative: "cabhantair",
+      afterArticle: "cabhantair",
+      eclipsed: "gcabhantar",
+      lenited: "cabhantair",
+      genitiveArticle: "gcabhantar"
+    },
+    audioPath: null,
+    image: "assets/counter.svg"
+  },
+{
+    id: "car",
+    english: "car",
+    irish: "carr",
+    gender: "masculine",
+    nominative: "carr",
+    genitive: "cairr",
+    afterArticle: "carr",
+    eclipsed: "gcarr",
+    lenited: "charr",
+    genitiveArticle: "chairr",
+    plural: {
+      irish: "carranna",
+      nominative: "carranna",
+      afterArticle: "carranna",
+      eclipsed: "gcarranna",
+      lenited: "carranna",
+      genitiveArticle: "gcarranna"
+    },
+    audioPath: null,
+    image: "assets/car.svg"
+  },
+{
+    id: "street",
+    english: "street",
+    irish: "sráid",
+    gender: "feminine",
+    nominative: "sráid",
+    genitive: "sráide",
+    afterArticle: "tsráid",
+    eclipsed: "sráid",
+    lenited: "shráid",
+    genitiveArticle: "sráide",
+    plural: {
+      irish: "sráideanna",
+      nominative: "sráideanna",
+      afterArticle: "sráideanna",
+      eclipsed: "sráideanna",
+      lenited: "sráideanna",
+      genitiveArticle: "sráideanna"
+    },
+    audioPath: null,
+    image: "assets/street.svg"
+  },
+{
+    id: "hill",
+    english: "hill",
+    irish: "cnoc",
+    gender: "masculine",
+    nominative: "cnoc",
+    genitive: "cnoic",
+    afterArticle: "cnoc",
+    eclipsed: "gcnoc",
+    lenited: "chnoc",
+    genitiveArticle: "chnoic",
+    plural: {
+      irish: "cnoic",
+      nominative: "cnoic",
+      afterArticle: "cnoic",
+      eclipsed: "gcnoc",
+      lenited: "cnoic",
+      genitiveArticle: "gcnoc"
+    },
+    audioPath: null,
+    image: "assets/hill.svg"
+  },
+{
+    id: "farm",
+    english: "farm",
+    irish: "feilm",
+    gender: "feminine",
+    nominative: "feilm",
+    genitive: "feilme",
+    afterArticle: "fheilm",
+    eclipsed: "bhfeilm",
+    lenited: "fheilm",
+    genitiveArticle: "feilme",
+    plural: {
+      irish: "feilmeacha",
+      nominative: "feilmeacha",
+      afterArticle: "feilmeacha",
+      eclipsed: "bhfeilmeacha",
+      lenited: "feilmeacha",
+      genitiveArticle: "bhfeilmeacha"
+    },
+    audioPath: null,
+    image: "assets/farm.svg"
+  },
+{
+    id: "foot",
+    english: "foot",
+    irish: "cois",
+    gender: "feminine",
+    nominative: "cois",
+    genitive: "coise",
+    afterArticle: "chois",
+    eclipsed: "gcois",
+    lenited: "chois",
+    genitiveArticle: "coise",
+    plural: {
+      irish: "cosa",
+      nominative: "cosa",
+      afterArticle: "cosa",
+      eclipsed: "gcos",
+      lenited: "cosa",
+      genitiveArticle: "gcos"
+    },
+    audioPath: null,
+    image: "assets/foot.svg"
+  },
+{
+    id: "hand",
+    english: "hand",
+    irish: "láimh",
+    gender: "feminine",
+    nominative: "láimh",
+    genitive: "láimhe",
+    afterArticle: "láimh",
+    eclipsed: "láimh",
+    lenited: "láimh",
+    genitiveArticle: "láimhe",
+    plural: {
+      irish: "lámha",
+      nominative: "lámha",
+      afterArticle: "lámha",
+      eclipsed: "lámh",
+      lenited: "lámha",
+      genitiveArticle: "lámh"
+    },
+    audioPath: null,
+    image: "assets/hand.svg"
+  },
+{
+    id: "sea",
+    english: "sea",
+    irish: "farraige",
+    gender: "feminine",
+    nominative: "farraige",
+    genitive: "farraige",
+    afterArticle: "fharraige",
+    eclipsed: "bhfarraige",
+    lenited: "fharraige",
+    genitiveArticle: "farraige",
+    plural: {
+      irish: "farraigí",
+      nominative: "farraigí",
+      afterArticle: "farraigí",
+      eclipsed: "bhfarraigí",
+      lenited: "farraigí",
+      genitiveArticle: "bhfarraigí"
+    },
+    audioPath: null,
+    image: "assets/sea.svg"
+  },
+{
+    id: "sand",
+    english: "sand",
+    irish: "gaineamh",
+    gender: "masculine",
+    nominative: "gaineamh",
+    genitive: "gainimh",
+    afterArticle: "gaineamh",
+    eclipsed: "ngaineamh",
+    lenited: "ghaineamh",
+    genitiveArticle: "ghainimh",
+    plural: {
+      irish: "gainimh",
+      nominative: "gainimh",
+      afterArticle: "gainimh",
+      eclipsed: "ngainimh",
+      lenited: "gainimh",
+      genitiveArticle: "ngainimh"
+    },
+    audioPath: null,
+    image: "assets/sand.svg"
+  },
+{
+    id: "mirror",
+    english: "mirror",
+    irish: "scáthán",
+    gender: "masculine",
+    nominative: "scáthán",
+    genitive: "scátháin",
+    afterArticle: "scáthán",
+    eclipsed: "scáthán",
+    lenited: "scáthán",
+    genitiveArticle: "scátháin",
+    plural: {
+      irish: "scátháin",
+      nominative: "scátháin",
+      afterArticle: "scátháin",
+      eclipsed: "scáthán",
+      lenited: "scátháin",
+      genitiveArticle: "scáthán"
+    },
+    audioPath: null,
+    image: "assets/mirror.svg"
+  },
+{
+    id: "floor",
+    english: "floor",
+    irish: "orlár",
+    gender: "masculine",
+    nominative: "orlár",
+    genitive: "orláir",
+    afterArticle: "orlár",
+    eclipsed: "n-orlár",
+    lenited: "orlár",
+    genitiveArticle: "orláir",
+    plural: {
+      irish: "orláir",
+      nominative: "orláir",
+      afterArticle: "orláir",
+      eclipsed: "n-orlár",
+      lenited: "orláir",
+      genitiveArticle: "n-orlár"
+    },
+    audioPath: null,
+    image: "assets/floor.svg"
+  },
+{
+    id: "mountain",
+    english: "mountain",
+    irish: "sliabh",
+    gender: "masculine",
+    nominative: "sliabh",
+    genitive: "sléibhe",
+    afterArticle: "sliabh",
+    eclipsed: "sliabh",
+    lenited: "shliabh",
+    genitiveArticle: "tsléibhe",
+    plural: {
+      irish: "sléibhte",
+      nominative: "sléibhte",
+      afterArticle: "sléibhte",
+      eclipsed: "sléibhte",
+      lenited: "sléibhte",
+      genitiveArticle: "sléibhte"
+    },
+    audioPath: null,
+    image: "assets/mountain.svg"
+  },
+{
+    id: "hotel",
+    english: "hotel",
+    irish: "teach ósta",
+    gender: "masculine",
+    nominative: "teach ósta",
+    genitive: "tí ósta",
+    afterArticle: "teach ósta",
+    eclipsed: "dteach ósta",
+    lenited: "theach ósta",
+    genitiveArticle: "tí ósta",
+    plural: {
+      irish: "tithe ósta",
+      nominative: "tithe ósta",
+      afterArticle: "tithe ósta",
+      eclipsed: "dtithe ósta",
+      lenited: "tithe ósta",
+      genitiveArticle: "dtithe ósta"
+    },
+    audioPath: null,
+    image: "assets/hotel.svg"
+  },
+{
+    id: "wall",
+    english: "wall",
+    irish: "balla",
+    gender: "masculine",
+    nominative: "balla",
+    genitive: "balla",
+    afterArticle: "balla",
+    eclipsed: "mballa",
+    lenited: "bhalla",
+    genitiveArticle: "bhalla",
+    plural: {
+      irish: "ballaí",
+      nominative: "ballaí",
+      afterArticle: "ballaí",
+      eclipsed: "mballaí",
+      lenited: "ballaí",
+      genitiveArticle: "mballaí"
+    },
+    audioPath: null,
+    image: "assets/wall.svg"
+  },
+{
+    id: "road",
+    english: "road",
+    irish: "bóthar",
+    gender: "masculine",
+    nominative: "bóthar",
+    genitive: "bóthair",
+    afterArticle: "bóthar",
+    eclipsed: "mbóthar",
+    lenited: "bhóthar",
+    genitiveArticle: "bhóthair",
+    plural: {
+      irish: "bóithrí",
+      nominative: "bóithrí",
+      afterArticle: "bóithrí",
+      eclipsed: "mbóithrí",
+      lenited: "bóithrí",
+      genitiveArticle: "mbóithrí"
+    },
+    audioPath: null,
+    image: "assets/road.svg"
+  },
+{
+    id: "window",
+    english: "window",
+    irish: "fuinneog",
+    gender: "feminine",
+    nominative: "fuinneog",
+    genitive: "fuinneoige",
+    afterArticle: "fhuinneog",
+    eclipsed: "bhfuinneog",
+    lenited: "fhuinneog",
+    genitiveArticle: "fuinneoige",
+    plural: {
+      irish: "fuinneoga",
+      nominative: "fuinneoga",
+      afterArticle: "fuinneoga",
+      eclipsed: "bhfuinneoga",
+      lenited: "fuinneoga",
+      genitiveArticle: "bhfuinneoga"
+    },
+    audioPath: null,
+    image: "assets/window.svg"
+  },
+{
+    id: "garden",
+    english: "garden",
+    irish: "garraí",
+    gender: "masculine",
+    nominative: "garraí",
+    genitive: "garraí",
+    afterArticle: "garraí",
+    eclipsed: "ngarraí",
+    lenited: "gharraí",
+    genitiveArticle: "gharraí",
+    plural: {
+      irish: "garranta",
+      nominative: "garranta",
+      afterArticle: "garranta",
+      eclipsed: "ngarranta",
+      lenited: "garranta",
+      genitiveArticle: "ngarranta"
+    },
+    audioPath: null,
+    image: "assets/garden.svg"
   }
 ];

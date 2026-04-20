@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">suit</title>
+  <desc id="desc">Practice icon showing suit</desc>
+  <rect width="220" height="180" rx="24" fill="#e8ecf2"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M77 45h66l24 100H53z" fill="#29394f"/><path d="M93 45l17 49 17-49" fill="#f7fbfb"/><path d="M103 77h14l7 48h-28z" fill="#c5314b"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">suit</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">drink</title>
+  <desc id="desc">Practice icon showing drink</desc>
+  <rect width="220" height="180" rx="24" fill="#edf5f2"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M73 54h74l-9 88H82z" fill="#f6c242"/><path d="M80 75h60" stroke="#fff3c4" stroke-width="8"/><path d="M91 39h38" stroke="#17211f" stroke-width="7" stroke-linecap="round"/><path d="M110 39v17" stroke="#17211f" stroke-width="7"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">drink</text>
+</svg>

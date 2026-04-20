@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">boat</title>
+  <desc id="desc">Practice icon showing a boat</desc>
+  <rect width="220" height="180" rx="24" fill="#e4f3f6"/>
+  <path d="M34 132c20-15 39-15 58 0s38 15 57 0 38-15 57 0v28H34z" fill="#257d93"/>
+  <path d="M52 93h116l-23 38H75z" fill="#9b5f36"/>
+  <path d="M110 36v55" stroke="#17211f" stroke-width="7" stroke-linecap="round"/>
+  <path d="M116 42l42 38h-42z" fill="#f5f0dd"/>
+  <path d="M105 45L72 83h33z" fill="#d7ecf2"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">boat</text>
+</svg>

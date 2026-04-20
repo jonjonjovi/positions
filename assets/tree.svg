@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">tree</title>
+  <desc id="desc">Practice icon showing tree</desc>
+  <rect width="220" height="180" rx="24" fill="#e9f2df"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M110 37c35 22 49 48 40 76H70c-9-28 5-54 40-76z" fill="#3f7a3a"/><path d="M110 89v55" stroke="#7a4d2b" stroke-width="16" stroke-linecap="round"/><path d="M77 133h66" stroke="#6d8b46" stroke-width="9" stroke-linecap="round"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">tree</text>
+</svg>

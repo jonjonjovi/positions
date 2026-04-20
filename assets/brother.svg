@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">brother</title>
+  <desc id="desc">Practice icon showing brother</desc>
+  <rect width="220" height="180" rx="24" fill="#e9edf6"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <circle cx="110" cy="58" r="24" fill="#d59b6a"/><path d="M70 146c5-37 25-57 40-57s35 20 40 57z" fill="#365f9b"/><path d="M86 54c9-25 47-24 55 2-18-5-36-6-55-2z" fill="#3d2a1f"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">brother</text>
+</svg>

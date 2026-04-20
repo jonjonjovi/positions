@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">bed</title>
+  <desc id="desc">Practice icon showing bed</desc>
+  <rect width="220" height="180" rx="24" fill="#e8f0f4"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <rect x="48" y="82" width="124" height="42" rx="7" fill="#4d7599"/><rect x="57" y="65" width="48" height="26" rx="6" fill="#f7f2e9"/><path d="M48 120v22M172 120v22" stroke="#263f55" stroke-width="8"/><path d="M106 83h65v33h-65z" fill="#88acc9"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">bed</text>
+</svg>

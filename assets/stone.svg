@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">stone</title>
+  <desc id="desc">Practice icon showing stone</desc>
+  <rect width="220" height="180" rx="24" fill="#ece8de"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M51 126c4-38 28-63 66-70 28-5 52 16 58 50 4 24-16 42-61 43-42 1-66-7-63-23z" fill="#6f6b60"/><path d="M79 92c16-19 40-25 68-17" fill="none" stroke="#aaa393" stroke-width="7" stroke-linecap="round"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">stone</text>
+</svg>

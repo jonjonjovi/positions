@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">hand</title>
+  <desc id="desc">Practice icon showing hand</desc>
+  <rect width="220" height="180" rx="24" fill="#f5ebdf"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M72 132V79c0-11 16-11 16 0v32-51c0-11 17-11 17 0v52-47c0-11 17-11 17 0v48-34c0-11 17-11 17 0v57c0 22-14 35-34 35-19 0-33-13-33-39z" fill="#d59b6a"/><path d="M72 118l-18-16c-8-7-19 5-10 15l31 34" fill="#d59b6a"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">hand</text>
+</svg>

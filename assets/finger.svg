@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">finger</title>
+  <desc id="desc">Practice icon showing finger</desc>
+  <rect width="220" height="180" rx="24" fill="#f5ebdf"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M86 143V76c0-10 15-10 15 0v40-56c0-10 16-10 16 0v56-48c0-10 16-10 16 0v54-31c0-10 16-10 16 0v34c0 22-15 35-38 35z" fill="#d59b6a"/><path d="M84 113l-18-14c-8-6-17 5-10 13l27 31" fill="#d59b6a"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">finger</text>
+</svg>

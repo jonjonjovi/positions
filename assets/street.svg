@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">street</title>
+  <desc id="desc">Practice icon showing street</desc>
+  <rect width="220" height="180" rx="24" fill="#e9ecef"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M87 42h46l35 109H52z" fill="#444f55"/><path d="M110 50v18M110 87v18M110 125v18" stroke="#f4d35e" stroke-width="7" stroke-linecap="round"/><path d="M55 151h110" stroke="#17211f" stroke-width="6"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">street</text>
+</svg>

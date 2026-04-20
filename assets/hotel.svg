@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">hotel</title>
+  <desc id="desc">Practice icon showing hotel</desc>
+  <rect width="220" height="180" rx="24" fill="#e8edf1"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <rect x="58" y="50" width="104" height="94" rx="6" fill="#526b82"/><path d="M75 73h15M103 73h15M131 73h15M75 98h15M103 98h15M131 98h15" stroke="#d7ecf2" stroke-width="9" stroke-linecap="round"/><rect x="96" y="111" width="28" height="33" fill="#f1d7a0"/><path d="M82 39h56" stroke="#17211f" stroke-width="8"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">hotel</text>
+</svg>

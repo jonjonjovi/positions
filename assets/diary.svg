@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">diary</title>
+  <desc id="desc">Practice icon showing diary</desc>
+  <rect width="220" height="180" rx="24" fill="#ebe6f3"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <rect x="63" y="43" width="91" height="107" rx="9" fill="#625083"/><rect x="77" y="57" width="63" height="79" rx="5" fill="#f7f0ff"/><path d="M91 78h36M91 95h36M91 112h25" stroke="#625083" stroke-width="5" stroke-linecap="round"/><path d="M61 55h-8v82h8" stroke="#2c243c" stroke-width="7"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">diary</text>
+</svg>

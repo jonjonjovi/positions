@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">gate</title>
+  <desc id="desc">Practice icon showing a gate</desc>
+  <rect width="220" height="180" rx="24" fill="#edf4eb"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M51 142V61M169 142V61" stroke="#684226" stroke-width="12" stroke-linecap="round"/>
+  <path d="M60 70h100M60 103h100M60 136h100" stroke="#9b6336" stroke-width="10" stroke-linecap="round"/>
+  <path d="M84 139V78M111 139V78M138 139V78" stroke="#70451f" stroke-width="8" stroke-linecap="round"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">gate</text>
+</svg>

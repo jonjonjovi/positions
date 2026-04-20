@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">dog</title>
+  <desc id="desc">Practice icon showing dog</desc>
+  <rect width="220" height="180" rx="24" fill="#f0e3d2"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <ellipse cx="110" cy="101" rx="49" ry="39" fill="#9d6b3f"/><circle cx="84" cy="73" r="22" fill="#9d6b3f"/><path d="M68 69L48 43c-5 27 3 44 20 46zM132 69l20-26c5 27-3 44-20 46z" fill="#70482f"/><circle cx="97" cy="92" r="5" fill="#17211f"/><circle cx="123" cy="92" r="5" fill="#17211f"/><path d="M108 105h9l-5 8z" fill="#17211f"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">dog</text>
+</svg>

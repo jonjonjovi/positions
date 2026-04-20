@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">ground</title>
+  <desc id="desc">Practice icon showing ground</desc>
+  <rect width="220" height="180" rx="24" fill="#eef4df"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M35 122c26-19 47-17 68-8 25 11 46 13 82-10v45H35z" fill="#6d8b46"/><path d="M48 108c24-20 44-25 68-18 19 6 33 7 55-8" fill="none" stroke="#3f6f35" stroke-width="8" stroke-linecap="round"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">ground</text>
+</svg>

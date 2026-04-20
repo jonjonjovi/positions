@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">sand</title>
+  <desc id="desc">Practice icon showing sand</desc>
+  <rect width="220" height="180" rx="24" fill="#f6edcf"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M33 129c27-16 51-18 72-8 24 12 51 11 82-9v37H33z" fill="#d7ad55"/><circle cx="72" cy="104" r="5" fill="#9f7334"/><circle cx="111" cy="113" r="4" fill="#9f7334"/><circle cx="143" cy="98" r="5" fill="#9f7334"/><path d="M56 131h109" stroke="#f4d98e" stroke-width="7" stroke-linecap="round"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">sand</text>
+</svg>

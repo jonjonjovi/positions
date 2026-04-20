@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">fork</title>
+  <desc id="desc">Practice icon showing fork</desc>
+  <rect width="220" height="180" rx="24" fill="#edf0f2"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M91 37v48M106 37v48M121 37v48" stroke="#596b72" stroke-width="8" stroke-linecap="round"/><path d="M106 84v64" stroke="#596b72" stroke-width="12" stroke-linecap="round"/><path d="M91 84c0 13 30 13 30 0" fill="none" stroke="#596b72" stroke-width="8"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">fork</text>
+</svg>

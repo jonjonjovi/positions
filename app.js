@@ -16,6 +16,8 @@ const els = {
   answerForm: document.querySelector("#answerForm"),
   answerInput: document.querySelector("#answerInput"),
   feedback: document.querySelector("#feedback"),
+  moverPluralBadge: document.querySelector("#moverPluralBadge"),
+  anchorPluralBadge: document.querySelector("#anchorPluralBadge"),
   newPromptButton: document.querySelector("#newPromptButton"),
   showAnswerButton: document.querySelector("#showAnswerButton"),
   editDataButton: document.querySelector("#editDataButton"),
@@ -36,17 +38,34 @@ function pick(list) {
   return list[Math.floor(Math.random() * list.length)];
 }
 
-function objectAfterPosition(anchor, position) {
-  return anchor[position.objectForm] || anchor.afterArticle || anchor.nominative;
+function pickNumber(item) {
+  return item.plural ? pick(["singular", "plural"]) : "singular";
 }
 
-function phraseFor(anchor, position) {
+function nounVariant(item, number) {
+  return number === "plural" && item.plural ? item.plural : item;
+}
+
+function objectAfterPosition(anchor, position, number = "singular") {
+  const objectForm = number === "plural"
+    ? position.pluralObjectForm || position.objectForm
+    : position.objectForm;
+  return anchor[objectForm] || anchor.afterArticle || anchor.nominative || anchor.irish;
+}
+
+function phraseFor(anchor, position, number = "singular") {
+  if (number === "plural") {
+    return position.pluralPhrase || position.phrase.replace(/\ban\b$/, "na");
+  }
+
   return position.phraseByGender?.[anchor.gender] || position.phrase;
 }
 
 function expectedSentence(prompt) {
-  const object = objectAfterPosition(prompt.anchor, prompt.position);
-  return `Tá ${prompt.mover.subjectArticle} ${phraseFor(prompt.anchor, prompt.position)} ${object}.`;
+  const mover = nounVariant(prompt.mover, prompt.moverNumber);
+  const anchor = nounVariant(prompt.anchor, prompt.anchorNumber);
+  const object = objectAfterPosition(anchor, prompt.position, prompt.anchorNumber);
+  return `Tá ${mover.subjectArticle} ${phraseFor(prompt.anchor, prompt.position, prompt.anchorNumber)} ${object}.`;
 }
 
 function normalized(text) {
@@ -65,12 +84,20 @@ function buildPrompt() {
   const mover = pick(movers);
   const anchor = pick(anchors);
   const position = pick(positions);
-  state.prompt = { mover, anchor, position };
+  state.prompt = {
+    mover,
+    anchor,
+    position,
+    moverNumber: pickNumber(mover),
+    anchorNumber: pickNumber(anchor)
+  };
   renderPrompt();
 }
 
 function renderPrompt() {
-  const { mover, anchor, position } = state.prompt;
+  const { mover, anchor, position, moverNumber, anchorNumber } = state.prompt;
+  const moverVariant = nounVariant(mover, moverNumber);
+  const anchorVariant = nounVariant(anchor, anchorNumber);
   const { layout } = position;
 
   els.moverImage.src = mover.image;
@@ -80,22 +107,46 @@ function renderPrompt() {
 
   setAssetPosition(els.moverImage, layout.mover, layout.moverScale);
   setAssetPosition(els.anchorImage, layout.anchor, layout.anchorScale);
+  setBadgePosition(els.moverPluralBadge, layout.mover, moverNumber);
+  setBadgePosition(els.anchorPluralBadge, layout.anchor, anchorNumber);
   setLabelPosition(els.subjectSceneLabel, labelPoint(layout.mover, layout.anchor, "subject"));
   setLabelPosition(els.referenceSceneLabel, labelPoint(layout.anchor, layout.mover, "reference"));
 
   els.moverImage.style.zIndex = layout.behind ? 1 : 3;
   els.anchorImage.style.zIndex = layout.behind ? 2 : 2;
-  els.subjectSceneLabel.querySelector("strong").textContent = `1: ${mover.english} starts`;
-  els.referenceSceneLabel.querySelector("strong").textContent = `2: ${anchor.english} follows`;
+  els.subjectSceneLabel.querySelector("strong").textContent = `1: ${labelForNumber(mover.english, moverNumber)} starts`;
+  els.referenceSceneLabel.querySelector("strong").textContent = `2: ${labelForNumber(anchor.english, anchorNumber)} follows`;
 
-  renderAudioLabel(els.moverLabel, `${mover.english}: `, mover.subjectArticle, mover.audioPath);
-  renderAudioLabel(els.anchorLabel, `${anchor.english}: `, anchor.irish, anchor.audioPath, ` (${anchor.gender})`);
+  renderAudioLabel(
+    els.moverLabel,
+    `${labelForNumber(mover.english, moverNumber)}: `,
+    moverVariant.subjectArticle,
+    mover.audioPath,
+    ` (${mover.gender || "unknown"})`
+  );
+  renderAudioLabel(
+    els.anchorLabel,
+    `${labelForNumber(anchor.english, anchorNumber)}: `,
+    anchorVariant.irish || anchorVariant.nominative,
+    anchor.audioPath,
+    ` (${anchor.gender})`
+  );
   renderAudioLabel(els.positionLabel, `${position.english}: `, position.irish, position.audioPath);
   els.ruleText.textContent = position.rule;
 
   els.answerInput.value = "";
   els.answerInput.focus();
   setFeedback("New scene ready.", "");
+}
+
+function labelForNumber(label, number) {
+  return number === "plural" ? `${label} x2` : label;
+}
+
+function setBadgePosition(element, point, number) {
+  element.hidden = number !== "plural";
+  element.style.left = `${point[0]}%`;
+  element.style.top = `${point[1]}%`;
 }
 
 function renderAudioLabel(element, prefix, text, audioPath, suffix = "") {
@@ -184,7 +235,9 @@ function checkAnswer() {
 
 function diagnose(answer, prompt) {
   const clean = normalized(answer);
-  const expectedObject = objectAfterPosition(prompt.anchor, prompt.position);
+  const mover = nounVariant(prompt.mover, prompt.moverNumber);
+  const anchor = nounVariant(prompt.anchor, prompt.anchorNumber);
+  const expectedObject = objectAfterPosition(anchor, prompt.position, prompt.anchorNumber);
 
   if (!clean.startsWith("tá ")) {
     return {
@@ -193,14 +246,14 @@ function diagnose(answer, prompt) {
     };
   }
 
-  if (!clean.includes(normalized(prompt.mover.subjectArticle))) {
+  if (!clean.includes(normalized(mover.subjectArticle))) {
     return {
       short: "first noun",
-      long: `Use <strong>${prompt.mover.subjectArticle}</strong> for the first object.`
+      long: `Use <strong>${mover.subjectArticle}</strong> for the first object.`
     };
   }
 
-  const expectedPhrase = phraseFor(prompt.anchor, prompt.position);
+  const expectedPhrase = phraseFor(prompt.anchor, prompt.position, prompt.anchorNumber);
 
   if (!clean.includes(normalized(expectedPhrase))) {
     return {

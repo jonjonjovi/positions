@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">hill</title>
+  <desc id="desc">Practice icon showing hill</desc>
+  <rect width="220" height="180" rx="24" fill="#e9f2df"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <path d="M28 143c37-64 72-86 103-62 16 12 33 35 61 62z" fill="#6d8b46"/><path d="M71 143c25-39 49-52 70-36 10 8 21 22 39 36z" fill="#89ad58"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">hill</text>
+</svg>

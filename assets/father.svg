@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">father</title>
+  <desc id="desc">Practice icon showing a father</desc>
+  <rect width="220" height="180" rx="24" fill="#edf0f4"/>
+  <ellipse cx="110" cy="150" rx="70" ry="14" fill="rgba(23,33,31,0.14)"/>
+  <circle cx="110" cy="55" r="24" fill="#d59b6a"/>
+  <path d="M70 148c5-39 24-60 40-60s35 21 40 60z" fill="#365f5d"/>
+  <path d="M88 52c9-28 47-28 56 0-20-7-36-7-56 0z" fill="#3d2a1f"/>
+  <path d="M96 72c9 9 19 9 28 0" fill="none" stroke="#6b3f21" stroke-width="5" stroke-linecap="round"/>
+  <text x="110" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#17211f">father</text>
+</svg>
